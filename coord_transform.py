@@ -211,7 +211,7 @@ if __name__ == '__main__':
     result5 = bd09_to_wgs84(lng, lat)
     result6 = wgs84_to_bd09(lng, lat)
 
-    # 填写在百度生成应用事的ak和sk
+    # 填写在百度生成应用时的ak和sk
     bd_geo = BD_Geocoding('ak', 'sk')
     result7 = bd_geo.baidu_geocode('北京市朝阳区宏源大厦')
     print(result1, result2, result3, result4, result5, result6, result7)
